@@ -8,12 +8,15 @@ Pembagian Tugas:
 Tester 1:  Arandea
 - Admin
 - PIM
+
 Tester 2: Divania
 - Leave
 - Time
+
 Tester 3: Aufar
 - Recruitment
 - Performance
+
 Tester 4: Barimuthi
 - My Info
 

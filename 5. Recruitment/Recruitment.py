@@ -140,7 +140,7 @@ class testday17(unittest.TestCase):
         #Validasi
         assert web.find_element(By.XPATH,"//*[@id='app']/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[3]/div")
     
-    #Unstable
+    
     
     def test_HRM_6_Recruitment_4(self):
         #Delete Candidate

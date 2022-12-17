@@ -14,7 +14,7 @@ class testday17(unittest.TestCase):
         self.browser = webdriver.Chrome()
     #Muncul error bisa jadi karna:
     # 1. Koneksi 2. Web/server ada problem 3. Data (hiring manager,dll) ada yang dihapus
-    # Solusi biasanya nunggu server web di "refresh??", baru code di run algi
+    # Solusi biasanya nunggu server web di "refresh??", baru code di run lagi
 
     def test_HRM_8_Performance_1(self):
         #Add Performance Indicator

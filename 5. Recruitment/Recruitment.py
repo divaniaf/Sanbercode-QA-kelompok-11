@@ -17,7 +17,7 @@ class test_Recruitment_Aufar(unittest.TestCase):
     # 1. Koneksi 2. Web/server ada problem 3. Data (hiring manager,dll) ada yang dihapus
     # Solusi biasanya nunggu server web di "refresh??", baru code di run lagi.
 
-    def test_HRM_8_Recruitment_1(self):
+    def test_Recruitment_1_Menambahkan_Pekerjaan(self):
         #Add/Update Vacancy
 
         #Pre-Condition
@@ -62,7 +62,7 @@ class test_Recruitment_Aufar(unittest.TestCase):
         #Validasi
         assert web.find_element(By.XPATH,'//*[@id="app"]/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div[1]/div/div[2]/div')
     
-    def test_HRM_8_Recruitment_2(self):
+    def test_Recruitment_2_Menambahkan_Kandidat(self):
         #Add Candidate
 
         #Pre-Condition
@@ -114,7 +114,7 @@ class test_Recruitment_Aufar(unittest.TestCase):
         #Validasi
         assert web.find_element(By.XPATH,"//*[@id='oxd-toaster_1']")
 
-    def test_HRM_8_Recruitment_3(self):
+    def test_Recruitment_3_Mencari_Kandidat(self):
         #Search Candidate
 
         #Pre-Condition
@@ -142,7 +142,7 @@ class test_Recruitment_Aufar(unittest.TestCase):
     
     
     
-    def test_HRM_8_Recruitment_4(self):
+    def test_Recruitment_4_Menghapus_Kandidat(self):
         #Delete Candidate
         
         #Pre-Condition
@@ -175,7 +175,7 @@ class test_Recruitment_Aufar(unittest.TestCase):
         assert web.find_element(By.XPATH,"//*[@id='oxd-toaster_1']")
 
 
-    def test_HRM_8_Recruitment_5(self):
+    def test_Recruitment_5_Mencari_Pekerjaan_About_Testing(self):
         #Search About Testing
 
         #Pre-Condition
@@ -203,7 +203,7 @@ class test_Recruitment_Aufar(unittest.TestCase):
         #Validasi
         assert web.find_element(By.XPATH,"//div[@id='app']/div[@class='oxd-layout']//div[@role='table']/div[2]//div[@role='row']/div[2]/div[.='About Testing']")
     
-    def test_HRM_8_Recruitment_6(self):
+    def test_Recruitment_6_Menghapus_Pekerjaan_About_Testing(self):
         #Delete About Testing
 
         #Pre-Condition

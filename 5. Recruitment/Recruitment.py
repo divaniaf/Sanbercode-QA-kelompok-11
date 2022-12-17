@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.ui import Select
 
-class testday17(unittest.TestCase):
+class test_Recruitment_Aufar(unittest.TestCase):
 
     def setUp(self):
         self.browser = webdriver.Chrome()

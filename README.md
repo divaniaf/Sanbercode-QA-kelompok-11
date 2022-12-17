@@ -14,8 +14,18 @@ Tester 2: Divania
 - Time
 
 Tester 3: Aufar
-- Recruitment
-- Performance
+
+A. Test Cases:
+- Recruitment (1-6)
+- Performance (1-4)
+
+B. Manual Testing:
+- Recruitment (1-6)
+- Performance (1-4)
+
+C.Automation Testing:
+- Recruitment (1-6)
+- Performance (1-4)
 
 Tester 4: Barimuthi
 - My Info

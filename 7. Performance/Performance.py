@@ -16,7 +16,7 @@ class test_Performance_Aufar(unittest.TestCase):
     # 1. Koneksi 2. Web/server ada problem 3. Data (hiring manager,dll) ada yang dihapus
     # Solusi biasanya nunggu server web di "refresh??", baru code di run lagi
 
-    def test_HRM_8_Performance_1(self):
+    def test_HRM_10_Performance_1(self):
         #Add Performance Indicator
 
         #Pre-Condition
@@ -68,7 +68,7 @@ class test_Performance_Aufar(unittest.TestCase):
         #Validasi
         assert web.find_element(By.XPATH,"//*[@id='oxd-toaster_1']")
     
-    def test_HRM_8_Performance_2(self):
+    def test_HRM_10_Performance_2(self):
         #Search Performance Indicator
         
         #Pre-Condition
@@ -97,7 +97,7 @@ class test_Performance_Aufar(unittest.TestCase):
         #Validasi
         assert web.find_element(By.XPATH,"//*[@id='app']/div[1]/div[2]/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div[2]")
 
-    def test_HRM_8_Performance_3(self):
+    def test_HRM_10_Performance_3(self):
         #Edit Performance Indicator
         
         #Pre-Condition
@@ -144,7 +144,7 @@ class test_Performance_Aufar(unittest.TestCase):
         #Validasi
         assert web.find_element(By.XPATH,"//*[@id='oxd-toaster_1']")
 
-    def test_HRM_8_Performance_4(self):
+    def test_HRM_10_Performance_4(self):
         #Delete Performance Indicator
 
         #Pre-Condition

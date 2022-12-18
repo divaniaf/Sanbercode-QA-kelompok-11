@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import Select
 class test_Performance_Aufar(unittest.TestCase):
 
     def setUp(self):
-        self.browser = webdriver.Chrome()
+        self.browser = webdriver.Chrome(ChromeDriverManager().install())
     #Muncul error bisa jadi karna:
     # 1. Koneksi 2. Web/server ada problem 3. Data (hiring manager,dll) ada yang dihapus
     # Solusi biasanya nunggu server web di "refresh??", baru code di run lagi

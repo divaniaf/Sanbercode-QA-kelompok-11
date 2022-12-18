@@ -4,6 +4,10 @@ Sanbercode QA Bootcamp Group 11
 
 TEST CASE: https://docs.google.com/spreadsheets/d/1vqx2Sh8tdbbXpf9mB4x-KelBdSDOSV9jmg0e2zcy-As/edit?usp=sharing
 
+AUTOMATION USED:
+- Selenium
+- Python
+
 ---
 TESTER ASSIGNEE:
 
